@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+#wrapper {
+  width: 100%;
+  padding: 20px;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+  width: calc(20% - 10px);
+  height: 180px;
+  margin-bottom: 10px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.empty {
+  width: calc(20% - 10px);
+}
